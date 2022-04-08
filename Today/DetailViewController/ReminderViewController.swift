@@ -22,5 +22,16 @@ class ReminderViewController: UICollectionViewController {
         fatalError("Always initialize ReminderViewController using init(reminder:)")
     }
     
-    
+    func text(for row: Row) -> String? {
+        switch row {
+        case .viewDate:
+            return reminder.dueDate.dayText
+        case .viewNotes:
+            return reminder.notes
+        case .viewTime:
+            return reminder.dueDate.formatted(date: .omitted, time: .shortened)
+        case .viewTitle:
+            return reminder.title
+        }
+    }
 }

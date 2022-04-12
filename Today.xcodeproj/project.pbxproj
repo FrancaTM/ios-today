@@ -76,15 +76,15 @@
 		25156A0027D4FE530000C26F /* Today */ = {
 			isa = PBXGroup;
 			children = (
-				25156A1527D501BE0000C26F /* Models */,
 				25156A0127D4FE530000C26F /* AppDelegate.swift */,
 				25156A0327D4FE530000C26F /* SceneDelegate.swift */,
+				25156A1527D501BE0000C26F /* Models */,
 				25D0E1DF27FB962700CC7519 /* ListViewController */,
+				25D0E1EC280084A600CC7519 /* DetailViewController */,
 				25156A0727D4FE530000C26F /* Main.storyboard */,
 				25156A0A27D4FE570000C26F /* Assets.xcassets */,
 				25156A0C27D4FE570000C26F /* LaunchScreen.storyboard */,
 				25156A0F27D4FE570000C26F /* Info.plist */,
-				25D0E1EC280084A600CC7519 /* DetailViewController */,
 			);
 			path = Today;
 			sourceTree = "<group>";
